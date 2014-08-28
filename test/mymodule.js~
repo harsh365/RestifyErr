@@ -1,0 +1,7 @@
+var expect = chai.expect;
+var mymodule = require('../mymodule.js');
+describe('Multiply module', function () {
+ it ('multiplies 3 by 2', function () {
+   expect(mymodule.validate(401)).to.be.eql({'ErrorCode':"401","ErrorMesage":"Validation Failed","ErrorStatusCode":"401223","DevMsg":"Error occured while validating the request"});
+ });
+});

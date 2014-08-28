@@ -1,0 +1,22 @@
+{
+  "name": "restifyerr",
+  "version": "1.0.0",
+  "description": "restifyerr error handling module",
+  "main": "index.js",
+  "author": "Harshad",
+  "license": "MIT",
+  "dependencies": {
+    
+    "restify": "~2.6.0",
+    "save": "0.0.19"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "expect.js": "^0.3.1",
+    "mocha": "^1.21.4",
+    "superagent": "^0.18.2"
+  },
+  "scripts": {
+    "test": "mocha test"
+  }
+}
